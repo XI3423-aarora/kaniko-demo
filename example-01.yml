@@ -8,7 +8,7 @@ spec:
     image: gcr.io/kaniko-project/executor:latest
     args:
     - "--dockerfile=Dockerfile"
-    - "--context=git://github.com/XI3423-aarora/kaniko-demo.git" #git://github.com/kunchalavikram1427/connected-app.git#refs/heads/master
+    - "--context=git://github.com/XI3423-aarora/kaniko-demo.git" 
     - "--destination=aman690/kaniko-example1:1.0"
     volumeMounts:
     - name: kaniko-secret
